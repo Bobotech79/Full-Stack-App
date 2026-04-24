@@ -21,7 +21,7 @@ connectDB();
 app.use(cors({ origin: true, }));
 app.use(express.json());
 
-app.use("/auth", authRoute);
+app.use('/auth', authRoute);
 app.get('/', (req, res) => {
   res.send('This is my API');
 });
