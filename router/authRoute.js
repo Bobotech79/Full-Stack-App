@@ -37,4 +37,4 @@ routes.post("/register", async (req, res) => {
   console.log('You have Register..');
 });
 
-module.exports = router;
+module.exports = routes;
